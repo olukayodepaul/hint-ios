@@ -62,3 +62,20 @@ Establish seamless data communication between views with @Binding.
 
 20. SwiftUI Tips: Refactoring Views
 Organize and refactor your SwiftUI views for maintainability.
+
+
+
+Layout
+🔑 Quick Mapping to Jetpack Compose
+
+VStack → Column
+
+HStack → Row
+
+ZStack → Box
+
+Spacer → Spacer
+
+List → LazyColumn / LazyRow
+
+LazyVGrid / LazyHGrid → LazyVerticalGrid / LazyHorizontalGrid
